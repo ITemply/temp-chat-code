@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Temp Chat</title>
+  <link rel="icon" type="image/x-icon" href="images/Icon.png">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<script src="script.js"></script>
+
+<body>
+  <div class='bigannouncement' id='bigannouncement'>
+    <center><span id='bigannouncespan'></span></center>
+  </div>
+  <br>
+  <div class='usernameinput' id='usernameinput'>
+    <input id='username' placeholder="Set username..." class='inputusername'></input>
+    <button onclick=inputusername() class='inputuser' id='inputuser'>Input Username</button>
+    <br>
+    <span class='error' id='usernameerror'>Please input a username.</span>
+  </div>
+  <div class='appholder' id='appholder'>
+    <br>
+    <span id='globalusername' class='globalusername'>Username: </span>
+    <input id='changeroom' placeholder="Change room here..." class='changeroom'></input> <button onclick=changeroom() class='changeroombtn' id='changeroombtn'>Change Room</button>
+    <br> <br>
+    <div class='chat' id='chat'></div>
+    <br>
+    <input id='message' placeholder="Send messages here..." class='message'></input>
+    <button onclick=sendmessage() class='sendmessage' id='sendmessages'>Send Message</button> <button onclick=window.location.reload() class='sendmessage' id='sendmessages'>Exit Chat</button> <button onclick="questionclick()" class='sendmessage' id='sendmessages'>?</button>
+  </div>
+  <iframe src='https://temp-chat-server.itemply.repl.co' hidden></iframe>
+</body>
+
+</html>

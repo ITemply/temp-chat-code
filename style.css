@@ -1,0 +1,238 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(35, 35, 35);
+}
+
+.appholder {
+  display: none;
+  width: 755px;
+  position: absolute;
+  border-style: solid;
+  padding: 10px;
+  border-color: rgb(20, 20, 20);
+  background-color: rgb(55, 55, 55);
+  color: rgb(255, 255, 255);
+  border-width: 2px;
+  left: 50%;
+  margin-left: -400px;
+}
+
+.bigannouncement {
+  display: none;
+  font-family: Arial;
+  font-weight: 700;
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 44px;
+}
+
+.bigannouncement span {
+  text-align: center;
+}
+
+.chat {
+  width: 750px;  
+  height: 450px;
+  border-style: solid;
+  background-color: rgb(45, 45, 45);
+  border-color: rgb(20, 20, 20);
+  overflow: hidden;
+  border-width: 2px;
+}
+
+.globalusername {
+  font-family: Arial;
+  border-style: solid;
+  padding: 10px;
+  border-color: rgb(20, 20, 20);
+  background-color: rgb(45, 45, 45);
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 1.5%;
+  border-width: 2px;
+}
+
+.message {
+  font-family: Arial;
+  border-style: solid;
+  width: 496px;
+  padding: 10px;
+  border-color: rgb(20, 20, 20);
+  background-color: rgb(45, 45, 45);
+  color: rgb(255, 255, 255);
+  border-width: 2px;
+}
+
+.usernameinput {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -175px;
+  margin-top: -50px;
+  border-style: solid;
+  padding: 10px;
+  border-color: rgb(20, 20, 20);
+  background-color: rgb(55, 55, 55);
+  color: rgb(255, 255, 255);
+  border-width: 2px;
+}
+
+.changeroom {
+  position: absolute;
+  left: 2%;
+  top: 4.75%;
+  margin-top: -19px;
+  margin-left: 415px;
+  border-style: solid;
+  padding: 10px;
+  border-color: rgb(20, 20, 20);
+  background-color: rgb(45, 45, 45);
+  color: rgb(255, 255, 255);
+  border-width: 2px;
+}
+
+.changeroombtn {
+  position: absolute;
+  margin-top: -19px;
+  margin-left: 640px;
+  left: 2%;
+  top: 4.75%;
+  border-style: solid;
+  padding: 10px;
+  border-color: rgb(20, 20, 20);
+  background-color: rgb(45, 45, 45);
+  color: rgb(255, 255, 255);
+  border-width: 2px;
+}
+
+.changeroombtn:hover {
+  background-color: rgb(55, 55, 55);
+}
+
+.inputusername {
+  font-family: Arial;
+  border-style: solid;
+  padding: 10px;
+  border-color: rgb(20, 20, 20);
+  background-color: rgb(45, 45, 45);
+  color: rgb(255, 255, 255);
+  border-width: 2px;
+}
+
+.inputuser {
+  font-family: Arial;
+  border-style: solid;
+  padding: 10px;
+  border-color: rgb(20, 20, 20);
+  background-color: rgb(45, 45, 45);
+  color: rgb(255, 255, 255);
+  border-width: 2px;
+}
+
+.inputuser:hover {
+  background-color: rgb(55, 55, 55);
+  border-width: 2px;
+}
+
+.sendmessage {
+  font-family: Arial;
+  border-style: solid;
+  padding: 10px;
+  border-color: rgb(20, 20, 20);
+  background-color: rgb(45, 45, 45);
+  color: rgb(255, 255, 255);
+  border-width: 2px;
+}
+
+.sendmessage:hover {
+  background-color: rgb(55, 55, 55);
+  border-width: 2px;
+}
+
+.newusername {
+  font-family: Arial;
+  border-style: solid;
+  padding: 10px;
+  border-color: rgb(20, 20, 20);
+  background-color: rgb(45, 45, 45);
+  color: rgb(255, 255, 255);
+  border-width: 2px;
+}
+
+.client-msg {
+  font-family: Arial;
+  color: rgb(255, 255, 255);
+  margin: 0 0 -10px 2.5px;
+}
+
+.client-msg span.textmessage {
+  font-family: Arial;
+  font-weight: 400;
+}
+
+.client-msg span.chattag-reg {
+  font-family: Arial;
+  font-weight: 700;
+  background-color: rgb(75, 75, 75);
+  padding: 2.5px;
+  border-radius: 5px;
+}
+
+.client-img {
+  font-family: Arial;
+  color: rgb(255, 255, 255);
+  margin: 0 0 -10px 2.5px;
+}
+
+.client-img span.chattag-reg {
+  font-family: Arial;
+  font-weight: 700;
+  background-color: rgb(75, 75, 75);
+  padding: 2.5px;
+  border-radius: 5px;
+}
+
+.announcement {
+  font-family: Arial;
+  font-weight: 700;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+}
+
+.error {
+  display: none;
+  font-family: Arial;
+  color: rgb(255, 0, 0);
+}
+
+.time {
+  font-family: Arial;
+  font-weight: 300;
+  font-size: 10px;
+  color: rgb(120, 120, 120);
+}
+
+.title {
+  font-family: Arial;
+  font-weight: 700;
+  font-size: 55px;
+  color: rgb(255, 255, 255);
+}
+
+.subtitle {
+  font-family: Arial;
+  font-weight: 600;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+}
+
+.text {
+  font-family: Arial;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  width: 60%;
+}
